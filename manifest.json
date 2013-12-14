@@ -1,0 +1,42 @@
+{
+  "name": "IMDb & Rotten Tomatoes ratings for snap",
+  "short_name": "Ratings for snap",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Enhances snap by sky with movie ratings from IMDb and Rotten Tomatoes.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "*://www.skysnap.de/film/*",
+    "*://www.skysnap.de/serie/*"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "*://www.skysnap.de/film/*",
+        "*://www.skysnap.de/serie/*"
+      ],
+      "include_globs": [
+        "*://www.skysnap.de/film/*/*.html",
+        "*://www.skysnap.de/serie/*/*.html"
+      ],   
+      "css" : [
+        "data/inject/chrome.css"
+      ],   
+      "js": [
+        "data/components/jquery/jquery.min.js",
+        "data/inject/chrome.js",
+        "data/inject/inject.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "data/components/jquery/jquery.min.map",
+    "data/inject/inject.css",
+    "data/components/components-font-awesome/*"
+  ]
+}

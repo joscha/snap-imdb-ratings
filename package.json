@@ -1,0 +1,11 @@
+{
+  "id": "snap-ratings@feth.com",
+  "name": "snap-ratings",
+  "description": "Enhances snap by sky with movie ratings from IMDb and Rotten Tomatoes.",
+  "fullName": "IMDb & Rotten Tomatoes ratings for snap",
+  "author": "Joscha Feth <joscha@feth.com>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "icon": "icons/icon32.png",
+  "icon64": "icons/icon64.png"
+}
