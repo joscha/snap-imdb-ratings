@@ -1,7 +1,7 @@
 {
-  "name": "IMDb & Rotten Tomatoes ratings for snap",
+  "name": "IMDb & Rotten Tomatoes for snap",
   "short_name": "Ratings for snap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Enhances snap by sky with movie ratings from IMDb and Rotten Tomatoes.",
   "icons": {

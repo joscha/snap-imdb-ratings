@@ -6,7 +6,7 @@ This extension seamlessly adds the ratings from IMDb and Rotten Tomatoes into th
 Each movie and series detail page gets two more rating rows (if the movie/series can be found in IMDb).
 You can install the latest version
 
-* for Chrome from [the Chrome Webstore](https://chrome.google.com/webstore/).
+* for Chrome from [the Chrome Webstore](https://chrome.google.com/webstore/detail/iggklifnhdipibkndbiejbhfdiokannj).
 * for Firefox from [Mozilla Addons](https://addons.mozilla.org/de/firefox/addon/snap-ratings/).
 
 ## History
