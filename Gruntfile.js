@@ -55,16 +55,16 @@ module.exports = function(grunt) {
 
     copy: {
       ff: {
-            options: {
-              processContent: function(content, file) {
-                switch(file) {
-                  case 'bower_components/jquery/jquery.min.js':
-                    // remove sourcemap, mozilla addons complains about //@ ...
-                    return content.replace('//@ sourceMappingURL=jquery.min.map','');
-                }
-                return content;
-              }
-            },
+        options: {
+          processContent: function(content, file) {
+            switch(file) {
+              case 'bower_components/jquery/jquery.min.js':
+                // make sure fingerprint of library fits, so Mozilla addons does not reject it...
+                return content.replace('//@ sourceMappingURL=jquery.min.map','//@ sourceMappingURL=jquery-2.0.3.min.map');
+            }
+            return content;
+          }
+        },
         files: [
           {expand: true, cwd: 'extension/shared/', src: ['**'], dest: 'extension/firefox/data/shared/'},
           {

@@ -20,6 +20,7 @@ You can install the latest version
 * **0.0.1** _(2013-12-15)_: initial public version
 
 ### Firefox
+* **0.0.4** _(2013-12-15)_: replaced patched jQuery version with original one, so fingerprinting on Mozilla addons works correctly.
 * **0.0.3** _(2013-12-15)_: fixed icons
 * **0.0.2** _(2013-12-15)_: initial public version
 
