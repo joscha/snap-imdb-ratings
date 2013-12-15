@@ -9,6 +9,10 @@ You can install the latest version
 * for Chrome from [the Chrome Webstore](https://chrome.google.com/webstore/detail/iggklifnhdipibkndbiejbhfdiokannj).
 * for Firefox from [Mozilla Addons](https://addons.mozilla.org/de/firefox/addon/snap-ratings/).
 
+## Screenshot
+
+![image](https://raw.github.com/joscha/snap-imdb-ratings/master/artwork/screenshot.png)
+
 ## History
 ### Chrome
 * **0.0.3** _(2013-12-15)_: fixed URLs with query params for Chrome
