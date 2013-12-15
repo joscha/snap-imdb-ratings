@@ -1,7 +1,7 @@
 {
   "name": "IMDb & Rotten Tomatoes for snap",
   "short_name": "Ratings for snap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Enhances snap by sky with movie ratings from IMDb and Rotten Tomatoes.",
   "icons": {
@@ -21,8 +21,8 @@
         "*://www.skysnap.de/serie/*"
       ],
       "include_globs": [
-        "*://www.skysnap.de/film/*/*.html",
-        "*://www.skysnap.de/serie/*/*.html"
+        "*://www.skysnap.de/film/*/*.html*",
+        "*://www.skysnap.de/serie/*/*.html*"
       ],   
       "css" : [
         "chrome.css"
