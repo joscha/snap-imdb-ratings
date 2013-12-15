@@ -9,12 +9,12 @@ var serien = /.*\.skysnap\.de\/serie\/.*/;
 pageMod.PageMod({
 	include: [filme, serien],
 	contentScriptFile: [
-						data.url("components/jquery/jquery.min.js"),
-						data.url("inject/firefox.js"),
-						data.url("inject/inject.js")
+						data.url("components/jquery.min.js"),
+						data.url("firefox.js"),
+						data.url("shared/inject.js")
 					],
 	contentStyleFile: [
-						data.url("inject/inject.css")
+						data.url("shared/inject.css")
 					],
 	contentScriptWhen: "ready",
 	onAttach: function(worker) {
@@ -22,7 +22,7 @@ pageMod.PageMod({
 			Request({
 				url: 'http://www.omdbapi.com/',
 				content: query,
-				overrideMimeType: "application/sjon; charset=utf-8",
+				overrideMimeType: "application/json; charset=utf-8",
 				onComplete: function (response) {
 					worker.port.emit('snap.ratings.return', response.json);
 				}

@@ -1,5 +1,7 @@
 (function($) {
 	'use strict';
+
+	console.log("MOOOOO");
 	
 	var $body = $('body');
 
@@ -9,7 +11,7 @@
 	}));
 
 	$body.on('snap.ratings.load',function(e, query) {
-		self.port.emit("snap.ratings.load", query);
+		self.port.emit('snap.ratings.load', query);
 	});
 
 	self.port.on('snap.ratings.return', function(data) {
