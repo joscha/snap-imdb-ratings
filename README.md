@@ -10,7 +10,14 @@ You can install the latest version
 * for Firefox from [Mozilla Addons](https://addons.mozilla.org/de/firefox/addon/snap-ratings/).
 
 ## History
-* **0.0.1** _(2013-12-14)_: initial public version
+### Chrome
+* **0.0.3** _(2013-12-15)_: fixed URLs with query params for Chrome
+* **0.0.2** _(2013-12-15)_: fixed icons
+* **0.0.1** _(2013-12-15)_: initial public version
+
+### Firefox
+* **0.0.3** _(2013-12-15)_: fixed icons
+* **0.0.2** _(2013-12-15)_: initial public version
 
 ## Acknowledgements
 The IMDb ratings for snap extension uses the Open Movie Database API by Brian Fritz (http://www.omdbapi.com/) for querying IMDb and Rotten Tomatoes. Thanks Brian!
