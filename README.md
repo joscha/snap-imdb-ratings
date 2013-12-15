@@ -7,7 +7,7 @@ Each movie and series detail page gets two more rating rows (if the movie/series
 You can install the latest version
 
 * for Chrome from [the Chrome Webstore](https://chrome.google.com/webstore/).
-* for Firefox from [Mozilla Addons](https://addons.mozilla.org/).
+* for Firefox from [Mozilla Addons](https://addons.mozilla.org/de/firefox/addon/snap-ratings/).
 
 ## History
 * **0.0.1** _(2013-12-14)_: initial public version
