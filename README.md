@@ -30,7 +30,3 @@ The IMDb ratings for snap extension uses the Open Movie Database API by Brian Fr
 
 ## License
 MIT
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/joscha/snap-imdb-ratings/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
