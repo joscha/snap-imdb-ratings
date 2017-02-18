@@ -1,4 +1,6 @@
 # Chrome extension for adding IMDb and Rotten Tomatoes ratings to [snap](https://www.skysnap.de)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/joscha/snap-imdb-ratings.svg)](https://greenkeeper.io/)
 __* * * Neither this extension, nor its author is in any way affiliated with Sky. * * *__
 
 ## Description
