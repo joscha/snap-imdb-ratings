@@ -10,13 +10,13 @@
   },
   "private": true,
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-mozilla-addon-sdk": "~0.3.2",
-    "grunt-contrib-copy": "~0.4.1",
-    "bower": "~1.2.8",
-    "grunt-contrib-compress": "~0.5.3"
+    "grunt": "~1.0.1",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-mozilla-addon-sdk": "~0.4.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "bower": "~1.8.0",
+    "grunt-contrib-compress": "~1.4.1"
   },
   "scripts": {
     "install": "./node_modules/bower/bin/bower install"
